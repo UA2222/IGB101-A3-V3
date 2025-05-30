@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords:
   - _CUSTOMWIND_ON
   - _SNOWONOFF_ON
+  - _TRANSLUCENCYONOFF_ON
   m_InvalidKeywords:
   - _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
@@ -97,7 +98,7 @@ Material:
     - _SnowGradient: 0.83
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TRANSLUCENCYONOFF: 0
+    - _TRANSLUCENCYONOFF: 1
     - _TransAmbient: 0.7
     - _TransDirect: 1
     - _TransNormalDistortion: 0.1
@@ -117,3 +118,4 @@ Material:
     - _GroundColor: {r: 0.020772753, g: 0.1509434, b: 0.013385539, a: 1}
     - _TopColor: {r: 0.020199064, g: 0.1792453, b: 0.017586326, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
