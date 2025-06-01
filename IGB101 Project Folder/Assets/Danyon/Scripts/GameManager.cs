@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
     public AudioSource[] audioSources;
     public float audioProx = 5.0f;
 
@@ -13,10 +14,10 @@ public class GameManager : MonoBehaviour
     public int currentPickups = 0;
     public int maxPickups = 5;
     public bool levelComplete = false;
-    // Start is called before the first frame update
-    void Start()
+	
+    void Awake()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
     {
         LevelCompleteCheck();
         UpdateGUI();
+		PlayAudioSamples();
     }
 
     private void PlayAudioSamples()

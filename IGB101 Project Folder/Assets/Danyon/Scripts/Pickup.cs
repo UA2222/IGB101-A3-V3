@@ -24,6 +24,8 @@ public class Pickup : MonoBehaviour
         {
             gameManager.currentPickups += 1;
             Destroy(this.gameObject);
+			if (coinaudio.instance != null)
+				coinaudio.instance.PlaySound();
         }
     }
 }
