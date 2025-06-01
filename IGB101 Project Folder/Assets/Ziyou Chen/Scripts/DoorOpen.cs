@@ -15,7 +15,7 @@ public class dooropen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("z"))
+        if (Input.GetKeyDown("q"))
         {
             float dist = Vector3.Distance(transform.position, player.transform.position);
             if (dist <= distance)
