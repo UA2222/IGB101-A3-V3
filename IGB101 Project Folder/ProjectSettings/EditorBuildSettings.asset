@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Danyon/Scenes/IGB101 Assessment 3.unity
     guid: f4fee370528e42446aca122932159f63
-  - enabled: 1
+  - enabled: 0
     path: Assets/Danyon/Scenes/Level2.unity
     guid: 22654f20abcd4d448a39803b20b8ecdc
   - enabled: 1

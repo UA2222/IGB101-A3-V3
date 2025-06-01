@@ -13,7 +13,7 @@ public class DoorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("f") && Vector3.Distance(transform.position, PlayerMovement.instance.transform.position)< 6 )
+        if (Input.GetKeyDown("q") && Vector3.Distance(transform.position, PlayerMovement.instance.transform.position)< 6 )
             animation.Play();
     }
 }
