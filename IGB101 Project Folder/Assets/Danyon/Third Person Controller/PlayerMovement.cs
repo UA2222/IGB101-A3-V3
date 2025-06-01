@@ -58,11 +58,11 @@ public class PlayerMovement : MonoBehaviour{
             anim.SetBool("Waving", false);
         }
 
-        if (Input.GetKeyDown("z"))
+        if (Input.GetKeyDown("f"))
         {
             anim.SetBool("Dancing", true);
         }
-        else if (Input.GetKeyUp("z"))
+        else if (Input.GetKeyUp("f"))
         {
             anim.SetBool("Dancing", false);
         }
