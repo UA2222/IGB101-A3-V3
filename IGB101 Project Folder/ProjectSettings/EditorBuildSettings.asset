@@ -14,4 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Danyon/Scenes/Level2.unity
     guid: 22654f20abcd4d448a39803b20b8ecdc
+  - enabled: 1
+    path: Assets/Bryan/Others/Scenes/SampleScene.unity
+    guid: 44478fcf2d822c04586b19891027c66e
+  - enabled: 1
+    path: Assets/Ziyou Chen/Scenes/Assignment 3.unity
+    guid: 1656c61cfa78af4479f34e74b2552fdf
+  - enabled: 0
+    path: Assets/Eden/Scenes/Updated 101.unity
+    guid: f021afa161a013043b3037d8b8689ff6
+  - enabled: 1
+    path: Assets/Eden/Scenes/IGB101-A2-EdenT.unity
+    guid: 2977304c641a8c1499716729aa329581
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
